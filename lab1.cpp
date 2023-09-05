@@ -251,7 +251,7 @@ void physics()
 	g.pos[0] += g.dir;
 	if (g.pos[0] >= (g.xres-g.w)) {
 		g.pos[0] = (g.xres-g.w);
-		g.dir = -g.dir;:
+		g.dir = -g.dir;
 	}
 	if (g.pos[0] <= g.w) {
 		g.pos[0] = g.w;
